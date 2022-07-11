@@ -242,9 +242,8 @@ Ip a
  
 
 ### Dan  jika muncul maka berhasil 
-
-
-```noted
-Manfaat keepalived dan haproxy pada pengujian kali ini :
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+## Manfaat keepalived dan haproxy pada pengujian kali ini :
+```
 Mengetahui cara kerja sederhana dari high availability dan load balancing yang dimana tidak hanya beban yang seimbang tetapi ketersediaan secara jangka waktu yang panjang juga sangat diperlukan. Dikarenakan kita tidak akan tahu apa yang akan terjadi kedepannya. 
 ```
