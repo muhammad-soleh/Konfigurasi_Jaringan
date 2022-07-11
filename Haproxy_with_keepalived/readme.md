@@ -1,7 +1,7 @@
 #  haproxy dan keepalived
 
 ## Topologi
- 
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/topologi%20haproxy%20with%20keepalived.png)
 
 ## Konfigurasi:
 ### Load Balancing 1
@@ -228,17 +228,17 @@ systemctl restart haproxy
 ```
 Ip a
 ```
-![gambar](link)
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/ipalb1.png)
  
 
 ### Setelah itu kita cek apakah haproxy nya sudah berjalan kita cek menggunakan curl ipvirtual atau ip asli di Load balance 1
-![gambar](link)
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/curllb1.png)
  
 ### Setelah itu kita coba matikan server load balancing 1 dan lakukan command ip a di load balancing 2 maka vip yang kita buat akan pindah ke load balancing 2
- ![gambar](link)
+ ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/ipalb2.png)
 
 ### Setelah itu kita coba cek curl menggunakan ip virtual kembali di load balancing 2
-![gambar](link)
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/curllb2.png)
  
 
 ### Dan  jika muncul maka berhasil 
