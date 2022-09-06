@@ -1,10 +1,10 @@
 # Installasi dan konfigurasi  Mikrotik dengan menggunakan EVE-NG
 
 ## Bahan-bahan yang perlu diinstall:
-VMware atau Virtualbox (https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html)
-EVE-NG OVF (https://www.eve-ng.net/index.php/download/)
-EVE-NG Client Side (https://www.eve-ng.net/index.php/download/)
-Mikrotik chr img versi bebas disini saya akan memakai versi 6.46.8
+1. VMware atau Virtualbox (https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html)
+2. EVE-NG OVF (https://www.eve-ng.net/index.php/download/)
+3. EVE-NG Client Side (https://www.eve-ng.net/index.php/download/)
+4. Mikrotik chr img versi bebas disini saya akan memakai versi 6.46.8
 
 ## Langkah-Langkah Installasi dan Konfigurasi awal:
 > Kita extract terlebih dahulu file OVF EVE-NG nya yang sudah kita download
