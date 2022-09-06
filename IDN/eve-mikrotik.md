@@ -14,7 +14,8 @@
 ### Nanti akan muncul seperti dibawah ini. disini kita ganti nama dari virtual machine nya sesuai keinginan dan klik import
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(3).png)
 ### Setelah eve-ng berhasil di import, langkah selanjutnya ialah kita settings dahulu beberapa spesifikasi yang dipakai oleh vm Eve-NG:
-1. Klik Edit virtual machine settings
+> Klik Edit virtual machine settings.
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
 2. Pada Tab Memory kita set ke rekomendasi saja 
 3. Lalu kita pundah ke Tab Processor lalu set number of processor nya ke 2
 4. Pada tab Network Adapter disini bisa pilih bridge namun terkadang ada masalah yang muncul jadi saya lebih memilih costum vmnet0 yang dimana mengarah ke jaringan wireless.
