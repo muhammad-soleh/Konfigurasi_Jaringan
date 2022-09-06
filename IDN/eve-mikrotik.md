@@ -40,22 +40,32 @@
 
 * Type the Root Password (disini masukkan password bebas yang penting ingat)
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(11).png)
+
 * Repeat the root Password (disni juga masukkan password yang sama dengan yang tadi)
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(12).png)
+
 * Type the short hostname for the system: (Disini masukkan hostname bebas)
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(13).png)
+
 * Type the DNS Domain name for the system: (disini juga bebas dimasukkan apa saja)
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(14).png)
+
 * Use DHCP/Static (disini pilih dhcp saja)
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(15).png)
+
 * NTP server (disini kita masukkan id.pool.ntp.org untuk menyinkronisasikan waktu indonesia)
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(16).png)
+
 * Proxy Server Configuration (disini pilih direct connection saja)
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(17).png)
+
 * Lalu ditunggu saja sampai reboot dan muncul seperti diawal
 
-Setelah itu maka kita bisa login menggunakan password yang kita sudah buat tadi dan kita cek ip address untuk pnet0 yang terhubung dengan bridge tadi.
-Dan kita copy ip tersebut dan buka di web browser client (chrome/firefox).Jika muncul seperti gambar dibawah ini maka sudah selesai instalasi dan konfigurasi awal EVE-NG.
+#### Setelah itu maka kita bisa login menggunakan password yang kita sudah buat tadi dan kita cek ip address untuk pnet0 yang terhubung dengan bridge tadi.
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(18).png)
+
+#### Dan kita copy ip tersebut dan buka di web browser client (chrome/firefox).Jika muncul seperti gambar dibawah ini maka sudah selesai instalasi dan konfigurasi awal EVE-NG.
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(19).png)
 
 > Konfigurasi mikrotik di EVE-NG
 Pertama kita pastikan dahulu sudah terdapat file img dari mikrotik chr versi 6.46.8
