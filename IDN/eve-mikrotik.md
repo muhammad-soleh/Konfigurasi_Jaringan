@@ -153,4 +153,4 @@ password : eve
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(41).png)
 
 #### Tada maka sudah berhasil kita remote menggunakan winbox.
-
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(42).png)
