@@ -67,41 +67,91 @@
 #### Dan kita copy ip tersebut dan buka di web browser client (chrome/firefox).Jika muncul seperti gambar dibawah ini maka sudah selesai instalasi dan konfigurasi awal EVE-NG.
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(19).png)
 
-> Konfigurasi mikrotik di EVE-NG
-Pertama kita pastikan dahulu sudah terdapat file img dari mikrotik chr versi 6.46.8
-Lalu kita extract file img nya yang sudah didownload
-Jika sudah maka kita lanjut import ke vm EVE-NG nya menggunakan winscp dengan:
-Host Name diisi ip address EVE-NG nya 
-Port default saja
-User Name diisi dengan root
-Password diisi dengan password yang tadi kita sudah buat
-lalu klik login, jika muncul pop out klik yes saja
-Lalu kita cari folder letak penyimpanan file img mikrotiknya dan juga kita pindah kan file image nya ke /opt/unetlab/addons/qemu/dan kita buat folder dengan mengklik F7 pada keyboard dan masukan nama foldernya. cara memindahkannya dengan drag and drop aja ya
-Setelah kita pindahkan file imgnya kita ubah nama file nya dengan klik F2 pada keyboard dan ganti namanya menjadi hda.qcow2
-Selanjutnya kita buka lagi eve-ng nya di vmware dan kita masuk ke folder nya dengan command cd /opt/unetlab/addons/qemu/mikrotik-6.46.8/
-Lalu kita ketikkan command /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
-maka selesai sudah kita mengimport mikrotik ke eve-ng, selanjutnya kita akan mencoba menggunakan mikrotiknya
+## Konfigurasi mikrotik di EVE-NG
+#### Pertama kita pastikan dahulu sudah terdapat file img dari mikrotik chr versi 6.46.8
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
 
+#### Lalu kita extract file img nya yang sudah didownload
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
 
-> Membuat lab, menambahkan mikrotik dan meremote nya menggunakan winbox di client
-Kita buka web yang tadi menggunakan ip address, setelah itu kita login menggunakan credentials:
+#### Jika sudah maka kita lanjut import ke vm EVE-NG nya menggunakan winscp dengan:
+* Host Name diisi ip address EVE-NG nya 
+* Port default saja
+* User Name diisi dengan root
+* Password diisi dengan password yang tadi kita sudah buat
+* lalu klik login, jika muncul pop out klik yes saja
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Lalu kita cari folder letak penyimpanan file img mikrotiknya dan juga kita pindah kan file image nya ke /opt/unetlab/addons/qemu/dan kita buat folder dengan mengklik F7 pada keyboard dan masukan nama foldernya. cara memindahkannya dengan drag and drop aja ya
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Setelah kita pindahkan file imgnya kita ubah nama file nya dengan klik F2 pada keyboard dan ganti namanya menjadi hda.qcow2
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Selanjutnya kita buka lagi eve-ng nya di vmware dan kita masuk ke folder nya dengan command cd /opt/unetlab/addons/qemu/mikrotik-6.46.8/
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Lalu kita ketikkan command /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### maka selesai sudah kita mengimport mikrotik ke eve-ng, selanjutnya kita akan mencoba menggunakan mikrotiknya
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+## Membuat lab, menambahkan mikrotik dan meremote nya menggunakan winbox di client
+#### Kita buka web yang tadi menggunakan ip address, setelah itu kita login menggunakan credentials:
+```
 username : admin
 password : eve
-Lalu kita klik icon document atau Add new lab
-Setelah itu kita isi nama dan authornya, lalu kita klik save
-Lalu kita klik icon + atau Add an object lalu pilih Node
-Lalu kita cari mikrotik maka akan muncul MIkrotik Router OS, klik saja.
-Lalu disini kita bisa ganti nama dan pastikan template nya itu Mikrotik RouterOS.dan klik save
-Maka akan ada satu buah mikrotik selanjutnya kita klik lagi tanda + atau Add an object dan selanjutnya tambahkan network
-Lalu ganti nama nya bebas dan type nya management(cloud). dan klik save
-Maka akan ada satu buah bentuk awan 
-Selanjutnya drag and drop dari awan(cloud) ke mikrotik dan chose interface pastikan pilih eth1 dan klik save
-Selanjutnya kita klik more actions dan klik start all nodes
-Lalu klik pada router nya maka akan terbuka tab baru yang berisi console dari mikrotik
-Disini kita login dengan user admin dan password kosong
-Lalu kita check apakah mikrotik sudah mendapatkan ip dhcp client dengan command ip dhcp-client print
-Jika masih searching kemungkinan salah interface seharusny kita set dhcp-client nya di ether. kita ubah menggunakan command ip dhcp-client set numbers=0 interface=ether1 dan kita cek lagi apakah sudah terganti dan sudah mendapatkan ip nya
-JIka sudah mendapatkan ip dhcp-client selanjutnya kita check di winbox
-jika disini kita refresh tetep tidak muncul kita masukkan saja ip dhcp-client yang tadi dan klik connect
-Tada maka sudah berhasil kita remote menggunakan winbox.
+```
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Lalu kita klik icon document atau Add new lab
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Setelah itu kita isi nama dan authornya, lalu kita klik save
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Lalu kita klik icon + atau Add an object lalu pilih Node
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Lalu kita cari mikrotik maka akan muncul MIkrotik Router OS, klik saja.
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Lalu disini kita bisa ganti nama dan pastikan template nya itu Mikrotik RouterOS.dan klik save
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Maka akan ada satu buah mikrotik selanjutnya kita klik lagi tanda + atau Add an object dan selanjutnya tambahkan network
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Lalu ganti nama nya bebas dan type nya management(cloud). dan klik save
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Maka akan ada satu buah bentuk awan 
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Selanjutnya drag and drop dari awan(cloud) ke mikrotik dan chose interface pastikan pilih eth1 dan klik save
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Selanjutnya kita klik more actions dan klik start all nodes
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Lalu klik pada router nya maka akan terbuka tab baru yang berisi console dari mikrotik
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Disini kita login dengan user admin dan password kosong
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Lalu kita check apakah mikrotik sudah mendapatkan ip dhcp client dengan command ip dhcp-client print
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Jika masih searching kemungkinan salah interface seharusny kita set dhcp-client nya di ether. kita ubah menggunakan command ip dhcp-client set numbers=0 interface=ether1 dan kita cek lagi apakah sudah terganti dan sudah mendapatkan ip nya
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### JIka sudah mendapatkan ip dhcp-client selanjutnya kita check di winbox
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### jika disini kita refresh tetep tidak muncul kita masukkan saja ip dhcp-client yang tadi dan klik connect
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
+
+#### Tada maka sudah berhasil kita remote menggunakan winbox.
 
