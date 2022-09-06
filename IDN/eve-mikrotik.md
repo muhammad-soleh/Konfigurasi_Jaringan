@@ -7,14 +7,14 @@
 4. Mikrotik chr img versi bebas disini saya akan memakai versi 6.46.8
 
 ## Langkah-Langkah Installasi dan Konfigurasi awal:
-### Kita extract terlebih dahulu file OVF EVE-NG nya yang sudah kita download
+##### Kita extract terlebih dahulu file OVF EVE-NG nya yang sudah kita download
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(1).png)
-### Lalu selanjutnya kita klik kanan pada file yang type nya Open Virtualization format package => open with => VMware Workstation. Lalu kita tunggu saja.
+##### Lalu selanjutnya kita klik kanan pada file yang type nya Open Virtualization format package => open with => VMware Workstation. Lalu kita tunggu saja.
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(2).png)
-### Nanti akan muncul seperti dibawah ini. disini kita ganti nama dari virtual machine nya sesuai keinginan dan klik import
+##### Nanti akan muncul seperti dibawah ini. disini kita ganti nama dari virtual machine nya sesuai keinginan dan klik import
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(3).png)
-### Setelah eve-ng berhasil di import, langkah selanjutnya ialah kita settings dahulu beberapa spesifikasi yang dipakai oleh vm Eve-NG:
-> Klik Edit virtual machine settings.
+##### Setelah eve-ng berhasil di import, langkah selanjutnya ialah kita settings dahulu beberapa spesifikasi yang dipakai oleh vm Eve-NG:
+###### Klik Edit virtual machine settings.
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
 2. Pada Tab Memory kita set ke rekomendasi saja 
 3. Lalu kita pundah ke Tab Processor lalu set number of processor nya ke 2
