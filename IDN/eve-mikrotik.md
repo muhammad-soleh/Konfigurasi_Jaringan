@@ -30,13 +30,13 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### Setelah kita setting maka langkah selanjutnya ialah kita klik saja Power on this virtual machine.
-![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(8).png)
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(4).png)
 
 #### Setelah muncul seperti dibawah ini kita login saja dengan username root dan password eve
-![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(9).png)
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(8).png)
 
 #### Nanti nya akan muncul pop up yang dimana ini adalah langkah awal.
-![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(10).png)
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(9).png)
 
 * Type the Root Password (disini masukkan password bebas yang penting ingat)
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(11).png)
