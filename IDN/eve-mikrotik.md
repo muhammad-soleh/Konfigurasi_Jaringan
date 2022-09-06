@@ -27,21 +27,25 @@
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(7).png)
 ###### 5. Klik oke 
 
-####### ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### Setelah kita setting maka langkah selanjutnya ialah kita klik saja Power on this virtual machine.
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(8).png)
+
 #### Setelah muncul seperti dibawah ini kita login saja dengan username root dan password eve
 ![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(9).png)
-Nanti nya akan muncul pop up yang dimana ini adalah langkah awal.
-Type the Root Password (disini masukkan password bebas yang penting ingat).
-Repeat the root Password (disni juga masukkan password yang sama dengan yang tadi)
-Type the short hostname for the system: (Disini masukkan hostname bebas)
-Type the DNS Domain name for the system: (disini juga bebas dimasukkan apa saja)
-Use DHCP/Static (disini pilih dhcp saja)
-NTP server (disini kita masukkan id.pool.ntp.org untuk menyinkronisasikan waktu indonesia)
-Proxy Server Configuration (disini pilih direct connection saja)
-Lalu ditunggu saja sampai reboot dan muncul seperti diawal
+
+#### Nanti nya akan muncul pop up yang dimana ini adalah langkah awal.
+![gambar](https://github.com/muhammad-soleh/Konfigurasi_Jaringan/blob/main/images/eve-mik/img%20(10).png)
+
+* Type the Root Password (disini masukkan password bebas yang penting ingat).
+* Repeat the root Password (disni juga masukkan password yang sama dengan yang tadi)
+* Type the short hostname for the system: (Disini masukkan hostname bebas)
+* Type the DNS Domain name for the system: (disini juga bebas dimasukkan apa saja)
+* Use DHCP/Static (disini pilih dhcp saja)
+* NTP server (disini kita masukkan id.pool.ntp.org untuk menyinkronisasikan waktu indonesia)
+* Proxy Server Configuration (disini pilih direct connection saja)
+* Lalu ditunggu saja sampai reboot dan muncul seperti diawal
 
 Setelah itu maka kita bisa login menggunakan password yang kita sudah buat tadi dan kita cek ip address untuk pnet0 yang terhubung dengan bridge tadi.
 Dan kita copy ip tersebut dan buka di web browser client (chrome/firefox).Jika muncul seperti gambar dibawah ini maka sudah selesai instalasi dan konfigurasi awal EVE-NG.
